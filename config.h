@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "mono:pixelsize=13:antialias=true:autohint=true";
+static char *font = "mono:pixelsize=14:antialias=true:autohint=true";
 static char *font2[] = { "JoyPixels:pixelsize=10:antialias=true:autohint=true" };
 static int borderpx = 2;
 
@@ -113,22 +113,22 @@ float alphaUnfocus;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	"#282828", /* hard contrast: #1d2021 / soft contrast: #32302f */ /*nearly black*/
-	"#cc241d", /*dunkelrot*/
-	"#98971a", /*dunkelgrasgrün*/
-	"#d79921", /*dunkelgrasorange*/
-	"#458588", /*türkis*/
-	"#b16286", /*weinrot(dunkler)*/
-	"#689d6a", /*grasgrün(dunkler)*/
-	"#a89984", /*hellgrauorange*/
-	"#928374", /*dunklesgrauorange*/
-	"#fb4934", /*rot*/
-	"#b8bb26", /*hellgelbgrasgrün*/
-	"#fabd2f", /*orange*/
-	"#83a598", /*blaugrasgrün*/
-	"#d3869b", /*hellweinrosa*/
-	"#8ec07c", /*hellgrasgrün*/
-	"#ebdbb2", /*hellorangebeige*/
+	"#282c34", /*"#282828",*/ /* hard contrast: #1d2021 / soft contrast: #32302f */ /*nearly black*/
+	"#353b45", /*"#cc241d",*/ /*dunkelrot*/
+	"#3e4451", /*"#98971a",*/ /*dunkelgrasgrün*/
+	"#545862", /*"#d79921",*/ /*dunkelgrasorange*/
+	"#565c64", /*"#458588",*/ /*türkis*/
+	"#abb2bf", /*"#b16286",*/ /*weinrot(dunkler)*/
+	"#b6bdca", /*"#689d6a",*/ /*grasgrün(dunkler)*/
+	"#c8ccd4", /*"#a89984",*/ /*hellgrauorange*/
+	"#d19a66", /*"#928374",*/ /*dunklesgrauorange*/
+	"#e06c75", /*"#fb4934",*/ /*rot*/
+	"#98c379", /*"#b8bb26",*/ /*hellgelbgrasgrün*/
+	"#e5c07b", /*"#fabd2f",*/ /*orange*/
+	"#61afef", /*"#83a598",*/ /*blaugrasgrün*/
+	"#56b6c2", /*"#d3869b",*/ /*hellweinrosa*/
+	"#c678dd", /*"#8ec07c",*/ /*hellgrasgrün*/
+	"#be5046", /*"#ebdbb2",*/ /*hellorangebeige*/
 	[255] = 0,
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#add8e6", /* 256 -> cursor */
