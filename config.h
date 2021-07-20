@@ -114,10 +114,10 @@ float alphaUnfocus;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	"#282c34", /*"#282828",*/ /* hard contrast: #1d2021 / soft contrast: #32302f */ /*nearly black*/
-	"#353b45", /*"#cc241d",*/ /*dunkelrot*/
-	"#3e4451", /*"#98971a",*/ /*dunkelgrasgrün*/
-	"#545862", /*"#d79921",*/ /*dunkelgrasorange*/
-	"#565c64", /*"#458588",*/ /*türkis*/
+	"#abb2bf",/*"#353b45",*/ /*"#cc241d",*/ /*dunkelrot*/
+	"#b6bdca",/*"#3e4451",*/ /*"#98971a",*/ /*dunkelgrasgrün*/
+	"#c8ccd4",/*"#545862",*/ /*"#d79921",*/ /*dunkelgrasorange*/
+	"#d19a66",/*"#565c64",*/ /*"#458588",*/ /*türkis*/
 	"#abb2bf", /*"#b16286",*/ /*weinrot(dunkler)*/
 	"#b6bdca", /*"#689d6a",*/ /*grasgrün(dunkler)*/
 	"#c8ccd4", /*"#a89984",*/ /*hellgrauorange*/
